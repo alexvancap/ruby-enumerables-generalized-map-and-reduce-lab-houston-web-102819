@@ -29,7 +29,7 @@ total = 0
       end
     elsif value == true
       if source_array[counter] = false
-        return false
+        return value
       end
     end
     counter += 1
