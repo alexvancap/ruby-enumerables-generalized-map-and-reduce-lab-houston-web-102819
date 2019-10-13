@@ -19,7 +19,7 @@ total = 0
     total = starting_point
   end
   while source_array[counter] do
-    yield(total, source_array[counter])
+    yield(total, counter)
     counter += 1
   end
 end
