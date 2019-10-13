@@ -17,6 +17,8 @@ value = false
   source_array.length.times {|index|
     if index == 1
       starting_point = 0
+    else
+      yield (starting_point, source_array[index])
   }
 
 end
