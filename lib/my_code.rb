@@ -20,6 +20,7 @@ source_array.length.times do |index|
     value = true
   end
 end
+end
 
 source_array = [1, 2, 3, 4]
 p reduce(source_array){|memo, n| memo + n}
