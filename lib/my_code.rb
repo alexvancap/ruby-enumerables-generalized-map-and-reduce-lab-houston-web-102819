@@ -15,7 +15,6 @@ counter = 0
 total = starting_point / source_array.length
 value = false
 
-if starting_point != 0
 source_array.length.times do |index|
   if source_array[index] == true
     value = true
