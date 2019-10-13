@@ -20,6 +20,7 @@ source_array.length.times do |index|
     value = true
   end
 end
+return value
 end
 
 source_array = [1, 2, 3, 4]
