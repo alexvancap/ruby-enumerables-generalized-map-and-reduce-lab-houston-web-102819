@@ -16,8 +16,6 @@ total = starting_point / source_array.length
 boolean = true
 
   while source_array[counter] do
-    total += source_array[counter]
-    counter += 1
   end
 end
 
