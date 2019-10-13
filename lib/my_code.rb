@@ -22,7 +22,7 @@ total = 0
     if source_array[counter].is_a?(Integer)
       total = yield(total, source_array[counter])
     else
-      if counter > 0 
+      if counter > 0
     counter += 1
   end
   return total
