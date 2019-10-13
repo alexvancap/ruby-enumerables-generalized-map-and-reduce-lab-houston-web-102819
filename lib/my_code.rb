@@ -22,7 +22,7 @@ total = 0
     total = yield(total, source_array[counter])
     counter += 1
   end
-  if total == -2
+  if total == 0
     return true
   elsif total == -1
     return false
