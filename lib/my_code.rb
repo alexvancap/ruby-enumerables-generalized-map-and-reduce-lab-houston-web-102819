@@ -21,8 +21,9 @@ total = 0
   while source_array[counter] do
     if source_array[counter].is_a?(Integer)
       total = yield(total, source_array[counter])
-      counter += 1
     else
+
+      counter += 1
   end
   return total
 end
