@@ -11,17 +11,17 @@ end
 
 
 def reduce(source_array, starting_point = 0)
-counter = 0
-value = false
-total = 0
-if !!value == value
-  if starting_point != 0
-    total = starting_point
+  counter = 0
+  value = false
+  total = 0
+  if !!value == value
+    if starting_point != 0
+      total = starting_point
+    end
+    while source_array[counter] do
+      total = yield(total, source_array[counter])
+      counter += 1
+    end
+    return total
   end
-  while source_array[counter] do
-    total = yield(total, source_array[counter])
-    counter += 1
-  end
-  return total
-end
 end
