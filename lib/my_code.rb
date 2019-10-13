@@ -13,7 +13,7 @@ end
 def reduce(source_array, starting_point = 0)
 counter = 0
 total = starting_point / source_array.length
-boolean = true
+value = false
 
   while source_array[counter] do
     counter += 1
