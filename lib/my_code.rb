@@ -15,11 +15,9 @@ counter = 0
 value = false
 total = 0
 
+  if starting_point != 0
   while source_array[counter] do
-    if counter == 1
-      starting_point = 0
-    else
-      yield(starting_point, source_array[counter])
+
     end
     counter += 1
   end
