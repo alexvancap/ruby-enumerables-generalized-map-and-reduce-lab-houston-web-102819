@@ -22,6 +22,7 @@ total = 0
     total = yield(total, source_array[counter])
     counter += 1
   end
+  return total
 end
 
 source_array = [1, 2, 3, 4]
