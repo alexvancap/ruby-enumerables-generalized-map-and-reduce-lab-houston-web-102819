@@ -15,12 +15,9 @@ counter = 0
 total = starting_point / source_array.length
 value = false
 
-source_array.length.times do |index|
-  if source_array[index] == true
-    value = true
-  end
-  yield (memo, source_array[index])
-end
+yield (starting_point, source_array.length.times{|index|
+    source_array[index]
+  })
 end
 
 source_array = [1, 2, 3, 4]
