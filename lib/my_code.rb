@@ -10,7 +10,7 @@ end
 
 
 
-def reduce(source_array, starting_point = 0)
+def reduce(source_array, starting_point = 10)
 counter = 0
 value = false
 total = 0
