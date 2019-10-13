@@ -22,6 +22,7 @@ total = 0
     if source_array[counter].is_a?(Integer)
       if (counter == source_array.length) && (value == true)
         return true
+      else
       total = yield(total, source_array[counter])
       value = true
     end
