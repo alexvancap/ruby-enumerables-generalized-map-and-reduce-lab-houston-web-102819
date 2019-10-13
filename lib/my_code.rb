@@ -19,6 +19,7 @@ value = false
       starting_point = 0
     else
       yield (starting_point, source_array[index])
+    end
   }
 
 end
