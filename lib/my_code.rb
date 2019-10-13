@@ -15,8 +15,9 @@ counter = 0
 total = starting_point / source_array.length
 value = false
 
-  while source_array[counter] do
-    counter += 1
+source_array.length.times do |index|
+  if source_array[index] == true
+    value = true
   end
 end
 
