@@ -10,22 +10,10 @@ end
 
 
 
-def reduce(source_array, starting_point = 0)
-counter = 0
-value = false
-total = 0
-
-  if starting_point != 0
-    total = starting_point
+def reduce(elements, starting_point = nil, &block)
+  if starting_point.nil?
+    elements.reduce(&block)
+  else
+    elements.reduce(starting_point, &block)
   end
-  while source_array[counter] do
-    total = yield(total, source_array[counter])
-    counter += 1
-  end
-  if total == 0
-    return true
-  elsif total == -1
-    return false
-  end
-  return total
 end
