@@ -21,7 +21,6 @@ total = 0
   while source_array[counter] do
     yield(total, source_array[counter])
     counter += 1
-    return total
   end
 end
 
