@@ -14,8 +14,8 @@ def reduce(source_array, starting_point = 0)
 counter = 0
 value = false
 
-  while source_array[index] do
-    if index == 1
+  while source_array[counter] do
+    if counter == 1
       starting_point = 0
     else
       yield(starting_point, source_array[index])
