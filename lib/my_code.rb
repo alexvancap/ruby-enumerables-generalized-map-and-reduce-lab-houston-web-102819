@@ -14,8 +14,9 @@ def reduce(source_array, starting_point = 0)
 counter = 0
 value = false
 total = 0
+if !!value == value
 
-if !!value != value
+else
   if starting_point != 0
     total = starting_point
   end
@@ -24,7 +25,4 @@ if !!value != value
     counter += 1
   end
   return total
-else
-  
-end
 end
