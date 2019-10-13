@@ -30,6 +30,7 @@ total = 0
     elsif value == true
       if source_array[counter] = false
         return false
+      end
     end
     counter += 1
   end
