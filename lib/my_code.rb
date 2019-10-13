@@ -18,7 +18,7 @@ value = false
     if index == 1
       starting_point = 0
     else
-      yield (starting_point, source_array[index])
+      yield(starting_point, source_array[index])
     end
   end
 
