@@ -28,6 +28,7 @@ total = 0
         total = yield(total, source_array[counter])
       end
     elsif value == true
+      if source_array[counter] = false
     end
     counter += 1
   end
