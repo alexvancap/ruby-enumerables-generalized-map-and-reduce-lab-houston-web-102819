@@ -15,6 +15,7 @@ counter = 0
 value = false
 total = 0
 
+if !!value != value
   if starting_point != 0
     total = starting_point
   end
@@ -25,5 +26,3 @@ total = 0
   return total
 end
 
-source_array = [1, 2, 3, 4]
-p reduce(source_array){|memo, n| memo + n}
