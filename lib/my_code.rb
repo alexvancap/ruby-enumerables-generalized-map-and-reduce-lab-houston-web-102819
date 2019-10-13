@@ -26,5 +26,6 @@ total = 0
     return true
   elsif total == -1
     return false
+  end
   return total
 end
