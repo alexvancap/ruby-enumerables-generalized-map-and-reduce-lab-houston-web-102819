@@ -12,7 +12,6 @@ end
 
 def reduce(source_array, starting_point = 0)
 counter = 0
-total = starting_point / source_array.length
 value = false
 
   source_array.length.times {|index|
