@@ -25,4 +25,3 @@ if !!value != value
   end
   return total
 end
-
