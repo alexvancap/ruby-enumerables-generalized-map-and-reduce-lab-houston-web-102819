@@ -23,7 +23,7 @@ total = 0
       total = yield(total, source_array[counter])
     else
 
-      counter += 1
+    counter += 1
   end
   return total
 end
