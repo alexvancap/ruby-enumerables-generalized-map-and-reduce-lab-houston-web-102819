@@ -19,7 +19,6 @@ yield (starting_point, source_array.length.times{|index|
     source_array[index]
   })
 end
-end
 
 source_array = [1, 2, 3, 4]
 p reduce(source_array){|memo, n| memo + n}
