@@ -12,29 +12,19 @@ end
 
 def reduce(source_array, starting_point = 0)
 counter = 0
-value = true
+value = false
 total = 0
 
   if starting_point != 0
     total = starting_point
   end
   while source_array[counter] do
-    if source_array[counter].is_a?(Integer)
-      if (counter == source_array.length) && (value == true)
-        return true
-      elsif source_array.length == counter
-        return total
-      else
-        total = yield(total, source_array[counter])
-      end
-    elsif value == true
-      if source_array[counter] = false
-        value = false
-        return value
-      end
-    end
+    total = yield(total, source_array[counter])
     counter += 1
   end
-
+  if total == -2
+    return true
+  elsif total == -1
+    return false
   return total
 end
