@@ -25,7 +25,7 @@ total = 0
       else
         total = yield(total, source_array[counter])
       end
-    elsif value = 
+    elsif value =
     end
     counter += 1
   end
