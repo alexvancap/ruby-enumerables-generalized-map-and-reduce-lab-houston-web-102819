@@ -24,4 +24,7 @@ if !!value != value
     counter += 1
   end
   return total
+else
+
+end
 end
