@@ -22,7 +22,6 @@ total = 0
     if source_array[counter] == true
       total = yield(total, source_array[counter])
     else
-      if counter > 0
         return false
     counter += 1
   end
