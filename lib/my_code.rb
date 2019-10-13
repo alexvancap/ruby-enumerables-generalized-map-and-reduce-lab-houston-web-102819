@@ -22,10 +22,11 @@ total = 0
     if source_array[counter].is_a?(Integer)
       if (counter == source_array.length) && (value == true)
         return true
-      else
+      elsif source_array.length == counter
+        return total
         total = yield(total, source_array[counter])
       end
-    elsif value =
+    elsif value == true
     end
     counter += 1
   end
