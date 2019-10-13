@@ -12,7 +12,7 @@ end
 
 def reduce(source_array, starting_point = 0)
 counter = 0
-value = false
+value = true
 total = 0
 
   if starting_point != 0
@@ -23,6 +23,7 @@ total = 0
       total = yield(total, source_array[counter])
     else
       if counter > 0
+        return false
     counter += 1
   end
   return total
