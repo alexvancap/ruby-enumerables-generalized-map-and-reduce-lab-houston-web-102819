@@ -17,7 +17,7 @@ value = false
 
 yield (starting_point, source_array.length.times do |index|
     source_array[index]
-  })
+  end)
 end
 
 source_array = [1, 2, 3, 4]
