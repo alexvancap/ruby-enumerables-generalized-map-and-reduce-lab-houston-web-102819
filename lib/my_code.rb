@@ -17,7 +17,7 @@ total = 0
 
   if starting_point != 0
     total = starting_point
-  e,d
+  end
   while source_array[counter] do
     yield(total, source_array[counter])
     counter += 1
