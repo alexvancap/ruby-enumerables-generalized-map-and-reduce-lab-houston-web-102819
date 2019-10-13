@@ -19,7 +19,6 @@ boolean = true
     total += source_array[counter]
     counter += 1
   end
-    return yield(total, source_array[counter])
 end
 
 source_array = [1, 2, 3, 4]
