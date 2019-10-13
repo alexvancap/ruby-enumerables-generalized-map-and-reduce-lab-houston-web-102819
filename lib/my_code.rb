@@ -14,13 +14,13 @@ def reduce(source_array, starting_point = 0)
 counter = 0
 value = false
 
-  source_array.length.times {|index|
+  while source_array[index] do
     if index == 1
       starting_point = 0
     else
       yield (starting_point, source_array[index])
     end
-  }
+  end
 
 end
 
