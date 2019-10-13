@@ -8,8 +8,6 @@ def map(source_array)
   return new_array
 end
 
-
-
 def reduce(elements, starting_point = nil, &block)
   if starting_point.nil?
     elements.reduce(&block)
