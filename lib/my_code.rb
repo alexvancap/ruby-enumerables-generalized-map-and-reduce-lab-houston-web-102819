@@ -20,7 +20,7 @@ total = 0
   end
   while source_array[counter] do
     if source_array[counter].is_a?(Integer)
-      if (source_array == array.length) && (value == true)
+      if (counter == source_array.length) && (value == true)
         return true
       total = yield(total, source_array[counter])
       value = true
