@@ -16,7 +16,6 @@ value = false
 
   while source_array[counter] do
     if counter == 1
-      puts 1
       starting_point = 0
     else
       yield(starting_point, source_array[counter])
