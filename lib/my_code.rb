@@ -24,6 +24,7 @@ total = 0
         return true
       elsif source_array.length == counter
         return total
+      else
         total = yield(total, source_array[counter])
       end
     elsif value == true
