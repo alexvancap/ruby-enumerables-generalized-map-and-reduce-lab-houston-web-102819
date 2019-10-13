@@ -20,10 +20,12 @@ total = 0
   end
   while source_array[counter] do
     if source_array[counter].is_a?(Integer)
+      if source_array == array.length
       total = yield(total, source_array[counter])
       value = true
     end
     counter += 1
   end
+  
   return total
 end
