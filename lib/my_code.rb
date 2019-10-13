@@ -20,6 +20,7 @@ value = false
     else
       yield(starting_point, source_array[index])
     end
+    counter += 1
   end
 
 end
