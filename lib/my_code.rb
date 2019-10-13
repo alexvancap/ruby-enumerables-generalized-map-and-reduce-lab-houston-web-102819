@@ -15,9 +15,11 @@ counter = 0
 total = starting_point / source_array.length
 value = false
 
-yield (starting_point, source_array.length.times do |index|
-    source_array[index]
-  end)
+  source_array.length.times {|index|
+    if index == 1
+      
+  }
+
 end
 
 source_array = [1, 2, 3, 4]
