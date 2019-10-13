@@ -15,7 +15,7 @@ def reduce(source_array, starting_point = 0)
   value = false
   total = 0
   if !!value == value
-
+    return 1
   else
     if starting_point != 0
       total = starting_point
